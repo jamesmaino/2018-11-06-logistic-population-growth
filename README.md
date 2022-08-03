@@ -156,6 +156,7 @@ sol = data.frame(
 )
  
 ```
+![Logistic equation solved numerically](https://github.com/jamesmaino/2018-11-06-logistic-population-growth/raw/main/plots/ode1.png)
 
 ```{r, echo=F}
 ggplot(sol) + 
@@ -168,5 +169,7 @@ ggplot(sol) +
     panel.grid = element_line(colour = 'grey')
   )
 ```
+
+![Logistic equation solved analytically](https://github.com/jamesmaino/2018-11-06-logistic-population-growth/raw/main/plots/ode2.png)
 
 All that calculus for the same line `deSolve` gave us...
